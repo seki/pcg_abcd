@@ -5,4 +5,4 @@ ADD data /data/
 
 ADD src/abcd.rb /
 
-CMD [ "irb" ]
+CMD [ "ruby", "abcd.rb", "druby://:50151" ]
